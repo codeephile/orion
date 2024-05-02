@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/stereotones");
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 5px 2px 20px #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+.center {
+  color: #fff;
+  margin: auto;
+  width: 90%;
+  text-shadow: 5px 0px 10px #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-top: solid 1.5px grey;
+  border-bottom: solid 1.5px grey;
+  font-size: 18px;
+}
+body .center2 {
+  color: #fff;
+  padding: 100px 100px;
+  margin: auto;
+  width: 90%;
+  letter-spacing: 1.5px;
+  text-shadow: 5px 0px 20px #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-top: solid 1.5px grey;
+  border-bottom: solid 1.5px grey;
+  text-align: left;
+  font-size: 20px;
+}
+body .navbar-brand {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Stereotones", sans-serif;
+}
+body .navbar {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+body .nav-link {
+  color: #fff;
+  text-shadow: 0px 0px 5px #fff;
+}
+body .nav-link:hover {
+  color: slategray;
+}
+h6{
+    color: #fff;
+    text-align: right;
+    padding: 10px 10px;
+    font-family: "Stereotones", sans-serif;
+}
+h5{
+    color: #fff;
+    text-shadow: 5px 2px 10px #fff;
+    font-size: 25px;
+}
+/* section */
+.section {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 700px;
+  padding-top: 100px;
+}
+
+.section-home {
+  background-image: url(img/bg1.jpg);
+}
+.section-shop {
+  background-image: url(img/bg2.jpg);
+}
+.section-about {
+  background-image: url(img/bg7.jpg);
+}
+.section-accessory{
+    background-image: url(img/ga.jpg);
+}
+/*card */
+.card {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+ /* button */
+.btn {
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+}
+/* form */
+label {
+  color: #fff;
+  text-shadow: 5px 2px 20px;
+}
+
+.form-control {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  background: transparent;
+  color: #fff;
+}
+
+textarea {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  resize: vertical;
+}
+#register{
+    color: slategray;
+    text-decoration: none;
+    text-shadow: 1px 2px 10px #fff;
+}
+#register:hover{
+    color: slategrey;
+    text-shadow: 5px 0px 20px;
+}
+h1{
+  color: #fff;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+h2{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+.order{
+  background-image: url(img/ga.jpg);
+}
+h3{
+  color: #fff;
+  padding-top: 100px;
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
+}
+.section-order{
+  background-image: url(img/ga.jpg);
+}
